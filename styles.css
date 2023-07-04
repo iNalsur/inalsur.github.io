@@ -31,3 +31,34 @@ nav img {
     height: 100px;
     margin: 0 100px;
 }
+
+#about {
+    border: 2px solid red;
+}
+
+#about h1 {
+    border: 2px solid blue;
+    text-align: center;
+}
+
+#about .container {
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about .content {
+    border: 2px solid yellow;
+}
+
+#about .languageIcons {
+    border: 2px solid purple;
+    display: flex;
+}
+
+#about .languageIcons img {
+    height: 20px;
+    width: 20px;
+    margin: auto;
+}
