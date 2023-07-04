@@ -1,13 +1,33 @@
 header #content {
     display: flex;
     align-items: center;
+    border: 2px solid green;
 }
 
 nav {
     display: flex;
+    border: 2px solid red;
+    margin: auto;
 }
 
 header ul {
     display: flex;
     list-style: none;
+    border: 2px solid yellow;
+    padding: 0;
+    margin: auto; 
+}
+
+.leftList li {
+    padding-left: 2.5rem;
+}
+
+.rightList li {
+    padding-right: 2.5rem;
+}
+
+nav img {
+    width: 100px;
+    height: 100px;
+    margin: 0 100px;
 }
