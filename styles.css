@@ -92,3 +92,62 @@ nav img {
     width: 150px;
     height: 150px;
 }
+
+#blog {
+    border: 2px solid red;
+
+}
+
+#blog h1 {
+    border: 2px solid yellow;
+    text-align: center;
+}
+
+#blog .container {
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blog .content {
+    border: 2px solid blue;
+}
+
+#blog .post {
+    border: 2px solid purple;
+}
+
+#blog .info {
+    border: 2px solid orange;
+    display: flex;
+}
+
+#blog .left {
+    border: 2px solid pink;
+    align-self: center;
+}
+
+#blog .left img {
+    width: 150px;
+    height: 150px;
+
+}
+
+#blog .right {
+    border: 2px solid black;
+}
+
+#blog .date {
+    border: 2px solid darkred;
+    text-align: right;
+}
+
+#blog .languageIcons {
+    border: 2px solid darkblue;
+}
+
+#blog .languageIcons img {
+    width: 20px;
+    height: 20px;
+}
