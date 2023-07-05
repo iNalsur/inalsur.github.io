@@ -62,3 +62,33 @@ nav img {
     width: 20px;
     margin: auto;
 }
+
+#projects {
+    border: 2px solid red;
+}
+
+#projects h1 {
+    border: 2px solid purple;
+    text-align: center;
+}
+
+#projects .container {
+    border: 2px solid green;
+}
+
+#projects .content {
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#projects .project {
+    border: 2px solid yellow;
+    text-align: center;
+}
+
+#projects img {
+    width: 150px;
+    height: 150px;
+}
