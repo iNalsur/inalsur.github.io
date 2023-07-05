@@ -35,35 +35,42 @@ nav img {
 }
 
 #about {
-    border: 2px solid red;
-    display: none;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    padding-bottom: 250px;
+    border-bottom: 3px solid darkred;
 }
 
 #about h1 {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     text-align: center;
 }
 
 #about .container {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
 #about .content {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
+    max-width: 700px;
+    text-align: center;
 }
 
 #about .languageIcons {
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     display: flex;
+    margin-top: 40px;
 }
 
 #about .languageIcons img {
     height: 20px;
     width: 20px;
     margin: auto;
+    background-color: darkred;
 }
 
 #projects {
