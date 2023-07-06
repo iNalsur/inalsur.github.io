@@ -36,6 +36,7 @@ nav img {
 
 #about {
     /* border: 2px solid red; */
+    display: none;
     margin-top: 100px;
     padding-bottom: 250px;
     border-bottom: 3px solid darkred;
@@ -74,34 +75,44 @@ nav img {
 }
 
 #projects {
-    border: 2px solid red;
-    display: none;
+    /* display: none */
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    padding-bottom: 150px;
+    border-bottom: 3px solid darkred;
 }
 
 #projects h1 {
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     text-align: center;
 }
 
 #projects .container {
-    border: 2px solid green;
+    /* border: 2px solid green; */
+    margin-top: 50px;
 }
 
 #projects .content {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #projects .project {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     text-align: center;
+    margin: 50px;
 }
 
 #projects img {
     width: 150px;
     height: 150px;
+    background-color: darkred;
+}
+
+.project a {
+    color: darkred;
 }
 
 #blog {
