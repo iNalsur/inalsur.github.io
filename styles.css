@@ -75,7 +75,7 @@ nav img {
 }
 
 #projects {
-    /* display: none */
+    display: none;
     /* border: 2px solid red; */
     margin-top: 100px;
     padding-bottom: 150px;
@@ -116,62 +116,88 @@ nav img {
 }
 
 #blog {
-    border: 2px solid red;
-    display: none;
+    /* border: 2px solid red; */
+    /* display: none; */
+    margin-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 3px solid darkred;
 }
 
 #blog h1 {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     text-align: center;
 }
 
 #blog .container {
-    border: 2px solid green;
+    /* border: 2px solid green; */
+    /* margin: 5px; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #blog .content {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    /* margin: 5px; */
+    min-width: 1000px;
+    overflow-y: scroll;
 }
 
 #blog .post {
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
+    /* margin: 5px; */
+    background-color: lightgray;
+    height: 250px;
+    display: grid;
+    margin: 40px;
 }
 
 #blog .info {
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
+    /* margin: 5px; */
     display: flex;
+    align-items: center;
 }
 
 #blog .left {
-    border: 2px solid pink;
-    align-self: center;
+    /* border: 2px solid pink; */
+    /* margin: 5px; */
+    width: 35%;
+    justify-content: right;
+    display: flex;
+    padding-right: 30px;
 }
 
 #blog .left img {
     width: 150px;
     height: 150px;
-
+    background-color: darkred;
 }
 
 #blog .right {
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    /* margin: 5px; */
+    width: 65%;
+    padding: 25px;
 }
 
 #blog .date {
-    border: 2px solid darkred;
+    /* border: 2px solid darkred; */
+    /* margin: 5px; */
     text-align: right;
+    padding-right: 50px;
 }
 
 #blog .languageIcons {
-    border: 2px solid darkblue;
+    /* border: 2px solid darkblue; */
+    /* margin: 5px; */
+    display: default;
 }
 
 #blog .languageIcons img {
     width: 20px;
     height: 20px;
+    background-color: darkred;
 }
 
 #contact {
