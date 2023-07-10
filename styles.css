@@ -117,7 +117,7 @@ nav img {
 
 #blog {
     /* border: 2px solid red; */
-    /* display: none; */
+    display: none;
     margin-top: 100px;
     padding-bottom: 100px;
     border-bottom: 3px solid darkred;
@@ -201,35 +201,42 @@ nav img {
 }
 
 #contact {
-    border: 2px solid red;
-    display: none;
+    /* border: 2px solid red; */
+    /* display: none; */
+    margin-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 3px solid darkred;
 }
 
 #contact h1 {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     text-align: center;
 }
 
 #contact .container {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
 #contact .content {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 #contact .socialIcons {
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
 #contact .socialIcons img {
-    border: 2px solid darkred;
-    width: 50px;
-    height: 50px;
+    /* border: 2px solid darkred; */
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    background-color: darkred;
 }
