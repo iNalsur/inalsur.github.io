@@ -19,12 +19,19 @@ header ul {
     margin: auto; 
 }
 
-.leftList li {
-    padding-left: 2.5rem;
+header a:hover {
+    background-color: darkred;
+    color: white;
 }
 
-.rightList li {
-    padding-right: 2.5rem;
+.leftList a {
+    margin-left: 2.5rem;
+    padding: 10px 10px 40px 10px;
+}
+
+.rightList a {
+    margin-right: 2.5rem;
+    padding: 10px 10px 40px 10px;
 }
 
 nav img {
@@ -36,7 +43,7 @@ nav img {
 
 #about {
     /* border: 2px solid red; */
-    display: none;
+    /* display: none; */
     margin-top: 100px;
     padding-bottom: 250px;
     border-bottom: 3px solid darkred;
@@ -202,7 +209,7 @@ nav img {
 
 #contact {
     /* border: 2px solid red; */
-    /* display: none; */
+    display: none;
     margin-top: 100px;
     padding-bottom: 100px;
     border-bottom: 3px solid darkred;
@@ -223,6 +230,7 @@ nav img {
 
 #contact .content {
     /* border: 2px solid blue; */
+    display: default;
 }
 
 #contact .socialIcons {
