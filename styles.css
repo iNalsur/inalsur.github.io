@@ -268,3 +268,12 @@ nav img {
     margin: 0 5px;
     background-color: darkred;
 }
+
+#contact i {
+    padding: 15px;
+    font-size: 30px;
+}
+
+#contact .fa-envelope {
+    color: red;
+}
