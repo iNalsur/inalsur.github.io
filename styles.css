@@ -269,6 +269,10 @@ nav img {
     background-color: darkred;
 }
 
+#contact a {
+    text-decoration: none;
+}
+
 #contact i {
     padding: 15px;
     font-size: 30px;
