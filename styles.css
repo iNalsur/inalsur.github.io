@@ -115,10 +115,22 @@ nav img {
 #projects img {
     width: 150px;
     height: 150px;
+    border-radius: 15px;
+}
+
+.tjhImage {
+    background-color: #FF6600;
+}
+
+.inalsurImage {
     background-color: darkred;
 }
 
-.project a {
+.tjhLink {
+    color: #FF6600;
+}
+
+.inalsurLink {
     color: darkred;
 }
 
