@@ -74,11 +74,11 @@ nav img {
     margin-top: 40px;
 }
 
-#about .languageIcons img {
-    height: 20px;
-    width: 20px;
+#about .languageIcons i {
+    height: 40px;
+    width: 40px;
     margin: auto;
-    background-color: darkred;
+    font-size: 25px;
 }
 
 #projects {
