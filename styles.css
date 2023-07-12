@@ -190,7 +190,7 @@ nav img {
 #blog .left img {
     width: 150px;
     height: 150px;
-    background-color: darkred;
+    border-radius: 15%;
 }
 
 #blog .right {
@@ -211,6 +211,14 @@ nav img {
     /* border: 2px solid darkblue; */
     /* margin: 5px; */
     display: default;
+}
+
+#blog i {
+    padding: 5px;
+}
+
+#blog .devicon-javascript-plain {
+    color: darkgoldenrod;
 }
 
 #blog .languageIcons img {
