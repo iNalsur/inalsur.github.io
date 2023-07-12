@@ -130,8 +130,19 @@ nav img {
     color: #FF6600;
 }
 
+#projects #tjhLink:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 #projects #inalsurLink {
     color: darkred;
+    cursor: pointer;
+}
+
+#projects #inalsurLink:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 #blog {
