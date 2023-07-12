@@ -74,6 +74,8 @@ function showBlog() {
 }
 
 document.getElementById("blogButton").onclick = function() {showBlog()};
+document.getElementById("tjhLink").onclick = function() {showBlog()};
+document.getElementById("inalsurLink").onclick = function() {showBlog()};
 
 function showContact() {
     document.getElementById("about").style.display = "none"
