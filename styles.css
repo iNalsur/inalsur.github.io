@@ -291,5 +291,23 @@ nav img {
 }
 
 #contact .fa-envelope {
-    color: red;
+    color: #c71610;
+}
+
+#contact .fa-envelope:hover {
+    background-color: #c71610;
+    color: white;
+    border-radius: 50%;
+}
+
+#contact .devicon-linkedin-plain:hover {
+    background-color: #0A66C2;
+    color: white;
+    border-radius: 50%;
+}
+
+#contact .devicon-github-original:hover {
+    background-color: black;
+    color: white;
+    border-radius: 50%;   
 }
