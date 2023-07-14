@@ -2,7 +2,7 @@ header #content {
     /* border: 2px solid green; */
     display: flex;
     align-items: center;
-    border-bottom: 3px solid darkred;
+    border-bottom: 3px solid #722F37;
 }
 
 nav {
@@ -20,7 +20,7 @@ header ul {
 }
 
 header a:hover {
-    background-color: darkred;
+    background-color: #722F37;
     color: white;
     cursor: pointer;
 }
@@ -39,7 +39,7 @@ nav img {
     width: 100px;
     height: 100px;
     margin: 0 100px;
-    background-color: darkred;
+    background-color: #722F37;
 }
 
 #about {
@@ -47,7 +47,7 @@ nav img {
     /* display: none; */
     margin-top: 100px;
     padding-bottom: 250px;
-    border-bottom: 3px solid darkred;
+    border-bottom: 3px solid #722F37;
 }
 
 #about h1 {
@@ -87,7 +87,7 @@ nav img {
     /* border: 2px solid red; */
     margin-top: 100px;
     padding-bottom: 150px;
-    border-bottom: 3px solid darkred;
+    border-bottom: 3px solid #722F37;
 }
 
 #projects h1 {
@@ -124,7 +124,7 @@ nav img {
 }
 
 .inalsurImage {
-    background-color: darkred;
+    background-color: #722F37;
 }
 
 #projects #tjhLink {
@@ -137,7 +137,7 @@ nav img {
 }
 
 #projects #inalsurLink {
-    color: darkred;
+    color: #722F37;
     cursor: pointer;
 }
 
@@ -151,7 +151,7 @@ nav img {
     display: none;
     margin-top: 100px;
     padding-bottom: 100px;
-    border-bottom: 3px solid darkred;
+    border-bottom: 3px solid #722F37;
 }
 
 #blog h1 {
@@ -236,7 +236,7 @@ nav img {
 #blog .languageIcons img {
     width: 20px;
     height: 20px;
-    background-color: darkred;
+    background-color: #722F37;
 }
 
 #contact {
@@ -244,7 +244,7 @@ nav img {
     display: none;
     margin-top: 100px;
     padding-bottom: 100px;
-    border-bottom: 3px solid darkred;
+    border-bottom: 3px solid #722F37;
 }
 
 #contact h1 {
@@ -278,7 +278,7 @@ nav img {
     width: 30px;
     height: 30px;
     margin: 0 5px;
-    background-color: darkred;
+    background-color: #722F37;
 }
 
 #contact a {
