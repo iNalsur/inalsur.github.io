@@ -6,7 +6,7 @@ function showAbout() {
     document.getElementById("blog").style.display = "none"
     document.getElementById("contact").style.display = "none"
     buttonList[0].style.cssText = `
-        background-color: darkred;
+        background-color: #722F37;
         color: white;
         `;
     buttonList[1].style.cssText = `
@@ -35,7 +35,7 @@ function showProjects() {
         color: default;
         `;
     buttonList[1].style.cssText = `
-        background-color: darkred;
+        background-color: #722F37;
         color: white;
         `;
     buttonList[2].style.cssText = `
@@ -64,7 +64,7 @@ function showBlog() {
         color: default;
         `;
     buttonList[2].style.cssText = `
-        background-color: darkred;
+        background-color: #722F37;
         color: white;
         `;
     buttonList[3].style.cssText = `
@@ -95,7 +95,7 @@ function showContact() {
         color: default;
         `;
     buttonList[3].style.cssText = `
-        background-color: darkred;
+        background-color: #722F37;
         color: white;
         `;
 }
