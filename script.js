@@ -101,3 +101,52 @@ function showContact() {
 }
 
 document.getElementById("contactButton").onclick = function() {showContact()};
+
+function tjhChangeLogos() {
+    document.getElementById("tjhImage").style.cssText = `
+        display: none;
+        `  
+    document.getElementById("tjhImageReversed").style.cssText = `
+        display: flex;
+        margin: auto;
+        border: 2px solid #FF6600;
+        `  
+}
+
+function tjhReturnLogos() {
+    document.getElementById("tjhImage").style.cssText = `
+        display: flex;
+        margin: auto;
+        `    
+    document.getElementById("tjhImageReversed").style.cssText = `
+        display: none;
+        `  
+}
+
+document.getElementById("tjhImage").onmouseover = function() {tjhChangeLogos()}
+document.getElementById("tjhImageReversed").onmouseout = function() {tjhReturnLogos()}
+
+
+function inalsurChangeLogos() {
+    document.getElementById("inalsurImage").style.cssText = `
+        display: none;
+        `  
+    document.getElementById("inalsurImageReversed").style.cssText = `
+        display: flex;
+        margin: auto;
+        border: 2px solid #722F37;
+        `  
+}
+
+function inalsurReturnLogos() {
+    document.getElementById("inalsurImage").style.cssText = `
+        display: flex;
+        margin: auto;
+        `    
+    document.getElementById("inalsurImageReversed").style.cssText = `
+        display: none;
+        `  
+}
+
+document.getElementById("inalsurImage").onmouseover = function() {inalsurChangeLogos()}
+document.getElementById("inalsurImageReversed").onmouseout = function() {inalsurReturnLogos()}
