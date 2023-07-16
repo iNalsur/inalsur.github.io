@@ -195,7 +195,7 @@ nav img {
 #blog .post {
     /* border: 2px solid purple; */
     /* margin: 5px; */
-    background-color: lightgray;
+    background-color: #e8e8e8;
     height: 250px;
     display: grid;
     margin: 40px;
