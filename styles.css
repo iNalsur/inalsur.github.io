@@ -119,12 +119,26 @@ nav img {
     border-radius: 15px;
 }
 
-.tjhImage {
+#tjhImage {
     background-color: #FF6600;
+    margin: auto;
+    border: 2px solid #FF6600;
+    display: flex;
 }
 
-.inalsurImage {
+#tjhImageReversed {
+    display: none;
+}
+
+#inalsurImage {
     background-color: #722F37;
+    margin: auto;
+    border: 2px solid #722F37;
+    display: flex;
+}
+
+#inalsurImageReversed {
+    display: none;
 }
 
 #projects #tjhLink {
