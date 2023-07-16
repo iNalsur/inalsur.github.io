@@ -1,3 +1,7 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 header #content {
     /* border: 2px solid green; */
     display: flex;
