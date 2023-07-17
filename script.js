@@ -81,12 +81,16 @@ function showBlog() {
     document.getElementById("tjhProjectLong").style.cssText = `
         display: none
         `
+    document.getElementById("backButton").style.cssText = `
+        display: none
+        `
 }
 
 document.getElementById("blogButton").onclick = function() {showBlog()};
 document.getElementById("tjhLink").onclick = function() {showBlog()};
 document.getElementById("inalsurLink").onclick = function() {showBlog()};
 document.getElementById("toBlog").onclick = function() {showBlog()};
+document.getElementById("backButton").onclick = function() {showBlog()};
 
 function showContact() {
     document.getElementById("about").style.display = "none"
@@ -170,7 +174,10 @@ function showTjhLong() {
     document.getElementById("tjhProjectShort").style.cssText = `
         display: none
         `
-        document.getElementById("tjhProjectLong").style.cssText = `
+    document.getElementById("tjhProjectLong").style.cssText = `
+        display: block;
+        `    
+    document.getElementById("backButton").style.cssText = `
         display: block;
         `    
 }
