@@ -49,6 +49,7 @@ function showProjects() {
 }
 
 document.getElementById("projectsButton").onclick = function() {showProjects()};
+document.getElementById("toProjects").onclick = function() {showProjects()};
 
 function showBlog() {
     document.getElementById("about").style.display = "none"
@@ -76,6 +77,7 @@ function showBlog() {
 document.getElementById("blogButton").onclick = function() {showBlog()};
 document.getElementById("tjhLink").onclick = function() {showBlog()};
 document.getElementById("inalsurLink").onclick = function() {showBlog()};
+document.getElementById("toBlog").onclick = function() {showBlog()};
 
 function showContact() {
     document.getElementById("about").style.display = "none"
@@ -101,6 +103,7 @@ function showContact() {
 }
 
 document.getElementById("contactButton").onclick = function() {showContact()};
+document.getElementById("toContact").onclick = function() {showContact()};
 
 function tjhChangeLogos() {
     document.getElementById("tjhImage").style.cssText = `
