@@ -208,7 +208,7 @@ nav img {
 #blog .content {
     /* border: 2px solid blue; */
     /* margin: 5px; */
-    min-width: 1000px;
+    max-width: 1200px;
     overflow-y: scroll;
 }
 
@@ -216,7 +216,7 @@ nav img {
     /* border: 2px solid purple; */
     /* margin: 5px; */
     background-color: #e8e8e8;
-    height: 250px;
+    max-height: 800px;
     display: grid;
     margin: 40px;
 }
@@ -231,7 +231,7 @@ nav img {
 #blog .left {
     /* border: 2px solid pink; */
     /* margin: 5px; */
-    width: 35%;
+    width: 25%;
     justify-content: right;
     display: flex;
     padding-right: 30px;
@@ -246,7 +246,7 @@ nav img {
 #blog .right {
     /* border: 2px solid black; */
     /* margin: 5px; */
-    width: 65%;
+    width: 75%;
     padding: 25px;
 }
 
