@@ -118,7 +118,10 @@ nav img {
 
 #projects .container {
     /* border: 2px solid green; */
-    margin-top: 50px;
+    max-width: 1000px;
+    margin: 50px auto 0px auto;
+    border-top: 2px solid #e8e8e8;
+    border-bottom: 2px solid #e8e8e8;
 }
 
 #projects .content {
