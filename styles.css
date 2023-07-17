@@ -216,12 +216,12 @@ nav img {
     /* border: 2px solid purple; */
     /* margin: 5px; */
     background-color: #e8e8e8;
-    max-height: 800px;
+    max-height: 100%;
     display: grid;
     margin: 40px;
 }
 
-#blog .post:hover {
+#blog .hover:hover {
     opacity: 70%;
     cursor: pointer;
 }
@@ -230,16 +230,17 @@ nav img {
     /* border: 2px solid orange; */
     /* margin: 5px; */
     display: flex;
-    align-items: center;
+    padding: 30px;
 }
 
 #blog .left {
     /* border: 2px solid pink; */
     /* margin: 5px; */
-    width: 25%;
+    width: 20%;
     justify-content: right;
     display: flex;
-    padding-right: 30px;
+    padding-right: 5%;
+    padding-top: 20px;
 }
 
 #blog .left img {
@@ -251,15 +252,14 @@ nav img {
 #blog .right {
     /* border: 2px solid black; */
     /* margin: 5px; */
-    width: 75%;
-    padding: 25px;
+    width: 70%;
+    padding-right: 5%;
 }
 
 #blog .date {
     /* border: 2px solid darkred; */
     /* margin: 5px; */
     text-align: right;
-    padding-right: 50px;
 }
 
 #blog .languageIcons {
