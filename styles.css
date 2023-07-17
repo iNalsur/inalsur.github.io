@@ -197,6 +197,21 @@ nav img {
     text-align: center;
 }
 
+#blog .fa-angle-double-left {
+    font-size: 70px;
+    color: #722F37;
+    opacity: 70%;
+    position: fixed;
+    top: 300px;
+    left: 300px;
+    display: none;
+}
+
+#blog .fa-angle-double-left:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
 #blog .container {
     /* border: 2px solid green; */
     /* margin: 5px; */
