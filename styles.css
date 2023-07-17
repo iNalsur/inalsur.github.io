@@ -221,6 +221,11 @@ nav img {
     margin: 40px;
 }
 
+#blog .post:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
 #blog .info {
     /* border: 2px solid orange; */
     /* margin: 5px; */
