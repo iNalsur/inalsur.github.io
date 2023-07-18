@@ -140,7 +140,7 @@ nav img {
 
 #projects .container {
     /* border: 2px solid green; */
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 50px auto 0px auto;
     border-top: 2px solid #e8e8e8;
     border-bottom: 2px solid #e8e8e8;
@@ -151,6 +151,7 @@ nav img {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #projects .project {
