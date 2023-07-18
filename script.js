@@ -183,3 +183,25 @@ function showTjhLong() {
 }
 
 document.getElementById("tjhProjectShort").onclick = function() {showTjhLong()}
+
+function openMenu() {
+    document.getElementById("navigationButton").style.cssText = `
+    display: none;
+    `
+    document.getElementById("navigationClose").style.cssText = `
+    display: block;
+    `
+}
+
+document.getElementById("navigationButton").onclick = function() {openMenu()}
+
+function closeMenu() {
+    document.getElementById("navigationButton").style.cssText = `
+    display: block;
+    `
+    document.getElementById("navigationClose").style.cssText = `
+    display: none;
+    `
+}
+
+document.getElementById("navigationClose").onclick = function() {closeMenu()}
