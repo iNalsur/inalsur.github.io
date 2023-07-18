@@ -222,6 +222,14 @@ nav img {
     font-size: 25px;
 }
 
+@media only screen and (max-width: 600px) {
+    #about {
+        margin-top: 30px;
+        border-top: 3px solid #722F37;
+        padding-bottom: 100px;
+    }
+}
+
 #projects {
     display: none;
     /* border: 2px solid red; */
@@ -302,6 +310,14 @@ nav img {
 #projects #inalsurLink:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    #projects {
+        margin-top: 30px;
+        border-top: 3px solid #722F37;
+        padding-bottom: 100px;
+    }
 }
 
 #blog {
@@ -461,6 +477,12 @@ nav img {
         top: 1%;
         left: 5%;
     }
+
+    #blog {
+        margin-top: 30px;
+        border-top: 3px solid #722F37;
+        padding-bottom: 30px;
+    }
 }
 
 #contact {
@@ -536,4 +558,16 @@ nav img {
     background-color: black;
     color: white;
     border-radius: 50%;   
+}
+
+@media only screen and (max-width: 600px) {
+    #contact {
+        margin-top: 30px;
+        border-top: 3px solid #722F37;
+        padding-bottom: 30px;
+    }
+
+    h1 {
+        padding-top: 20px;
+    }
 }
