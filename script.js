@@ -24,6 +24,7 @@ function showAbout() {
 }
 
 document.getElementById("aboutButton").onclick = function() {showAbout()};
+document.getElementById("aboutMobile").onclick = function() {showAbout()};
 
 function showProjects() {
     document.getElementById("about").style.display = "none"
@@ -49,6 +50,7 @@ function showProjects() {
 }
 
 document.getElementById("projectsButton").onclick = function() {showProjects()};
+document.getElementById("projectsMobile").onclick = function() {showProjects()};
 document.getElementById("toProjects").onclick = function() {showProjects()};
 
 function showBlog() {
@@ -87,6 +89,7 @@ function showBlog() {
 }
 
 document.getElementById("blogButton").onclick = function() {showBlog()};
+document.getElementById("blogMobile").onclick = function() {showBlog()};
 document.getElementById("tjhLink").onclick = function() {showBlog()};
 document.getElementById("inalsurLink").onclick = function() {showBlog()};
 document.getElementById("toBlog").onclick = function() {showBlog()};
@@ -116,6 +119,7 @@ function showContact() {
 }
 
 document.getElementById("contactButton").onclick = function() {showContact()};
+document.getElementById("contactMobile").onclick = function() {showContact()};
 document.getElementById("toContact").onclick = function() {showContact()};
 
 function tjhChangeLogos() {
@@ -191,6 +195,9 @@ function openMenu() {
     document.getElementById("navigationClose").style.cssText = `
     display: block;
     `
+    document.getElementById("navList").style.cssText = `
+    display: inline-block;
+    `
 }
 
 document.getElementById("navigationButton").onclick = function() {openMenu()}
@@ -200,6 +207,9 @@ function closeMenu() {
     display: block;
     `
     document.getElementById("navigationClose").style.cssText = `
+    display: none;
+    `
+    document.getElementById("navList").style.cssText = `
     display: none;
     `
 }
