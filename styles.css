@@ -46,6 +46,25 @@ nav img {
     background-color: #722F37;
 }
 
+@media only screen and (max-width: 800px) {
+    .rightList a {
+        margin-right: 1.5rem
+    }
+
+    .leftList a {
+        margin-left: 1.5rem
+    }
+
+    nav img {
+        margin: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #desktop {
+        display: none;
+    }    
+}
 #about {
     /* border: 2px solid red; */
     /* display: none; */
