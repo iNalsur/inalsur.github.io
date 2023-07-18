@@ -65,6 +65,7 @@ nav img {
         display: none;
     }    
 }
+
 #about {
     /* border: 2px solid red; */
     /* display: none; */
@@ -113,12 +114,14 @@ nav img {
     /* border: 2px solid purple; */
     display: flex;
     margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #about .languageIcons i {
     height: 40px;
     width: 40px;
-    margin: auto;
+    margin: auto 20px;
     font-size: 25px;
 }
 
