@@ -255,7 +255,6 @@ nav img {
     /* margin: 5px; */
     background-color: #e8e8e8;
     max-height: 100%;
-    display: grid;
     margin: 40px;
 }
 
@@ -300,12 +299,6 @@ nav img {
     text-align: right;
 }
 
-#blog .languageIcons {
-    /* border: 2px solid darkblue; */
-    /* margin: 5px; */
-    display: default;
-}
-
 #blog i {
     padding: 5px;
 }
@@ -322,6 +315,41 @@ nav img {
 
 #blog #tjhProjectLong {
     display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    #blog .info {
+        display: block;
+    }
+
+    #blog .left {
+        justify-content: center;
+        width: auto;
+        padding: 0;
+    }
+
+    #blog .right {
+        text-align: center;
+        width: auto;
+        padding: 0;
+    }
+
+    #blog .date {
+        text-align: center;
+    }
+
+    #blog h2 {
+        font-size: 20px;
+    }
+
+    #blog .post {
+        margin: 40px 0px;
+    }
+
+    #blog .fa-angle-double-left {
+        top: 50%;
+        left: 5px;
+    }
 }
 
 #contact {
