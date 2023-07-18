@@ -325,6 +325,8 @@ nav img {
 #contact .content {
     /* border: 2px solid blue; */
     display: default;
+    text-align: center;
+    line-height: 26px;
 }
 
 #contact .socialIcons {
