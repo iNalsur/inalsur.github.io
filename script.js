@@ -21,6 +21,15 @@ function showAbout() {
         background-color: default;
         color: default;
         `;
+    document.getElementById("navigationButton").style.cssText = `
+    display: block;
+    `
+    document.getElementById("navigationClose").style.cssText = `
+    display: none;
+    `
+    document.getElementById("navList").style.cssText = `
+    display: none;
+    `
 }
 
 document.getElementById("aboutButton").onclick = function() {showAbout()};
@@ -47,6 +56,15 @@ function showProjects() {
         background-color: default;
         color: default;
         `;
+    document.getElementById("navigationButton").style.cssText = `
+    display: block;
+    `
+    document.getElementById("navigationClose").style.cssText = `
+    display: none;
+    `
+    document.getElementById("navList").style.cssText = `
+    display: none;
+    `
 }
 
 document.getElementById("projectsButton").onclick = function() {showProjects()};
@@ -86,6 +104,15 @@ function showBlog() {
     document.getElementById("backButton").style.cssText = `
         display: none
         `
+    document.getElementById("navigationButton").style.cssText = `
+    display: block;
+    `
+    document.getElementById("navigationClose").style.cssText = `
+    display: none;
+    `
+    document.getElementById("navList").style.cssText = `
+    display: none;
+    `
 }
 
 document.getElementById("blogButton").onclick = function() {showBlog()};
@@ -116,6 +143,15 @@ function showContact() {
         background-color: #722F37;
         color: white;
         `;
+    document.getElementById("navigationButton").style.cssText = `
+    display: block;
+    `
+    document.getElementById("navigationClose").style.cssText = `
+    display: none;
+    `
+    document.getElementById("navList").style.cssText = `
+    display: none;
+    `
 }
 
 document.getElementById("contactButton").onclick = function() {showContact()};
