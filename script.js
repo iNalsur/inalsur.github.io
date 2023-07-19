@@ -1,5 +1,9 @@
 const buttonList = document.querySelectorAll("a");
 
+function scrollToTop() {
+    window.scrollTo(0, 0);
+  }
+
 function showAbout() {
     document.getElementById("about").style.display = "block"
     document.getElementById("projects").style.display = "none"
@@ -32,8 +36,8 @@ function showAbout() {
     `
 }
 
-document.getElementById("aboutButton").onclick = function() {showAbout()};
-document.getElementById("aboutMobile").onclick = function() {showAbout()};
+document.getElementById("aboutButton").onclick = function() {showAbout(), scrollToTop()};
+document.getElementById("aboutMobile").onclick = function() {showAbout(), scrollToTop()};
 
 function showProjects() {
     document.getElementById("about").style.display = "none"
@@ -67,9 +71,9 @@ function showProjects() {
     `
 }
 
-document.getElementById("projectsButton").onclick = function() {showProjects()};
-document.getElementById("projectsMobile").onclick = function() {showProjects()};
-document.getElementById("toProjects").onclick = function() {showProjects()};
+document.getElementById("projectsButton").onclick = function() {showProjects(), scrollToTop()};
+document.getElementById("projectsMobile").onclick = function() {showProjects(), scrollToTop()};
+document.getElementById("toProjects").onclick = function() {showProjects(), scrollToTop()};
 
 function showBlog() {
     document.getElementById("about").style.display = "none"
@@ -115,12 +119,12 @@ function showBlog() {
     `
 }
 
-document.getElementById("blogButton").onclick = function() {showBlog()};
-document.getElementById("blogMobile").onclick = function() {showBlog()};
-document.getElementById("tjhLink").onclick = function() {showBlog()};
-document.getElementById("inalsurLink").onclick = function() {showBlog()};
-document.getElementById("toBlog").onclick = function() {showBlog()};
-document.getElementById("backButton").onclick = function() {showBlog()};
+document.getElementById("blogButton").onclick = function() {showBlog(), scrollToTop()};
+document.getElementById("blogMobile").onclick = function() {showBlog(), scrollToTop()};
+document.getElementById("tjhLink").onclick = function() {showBlog(), scrollToTop()};
+document.getElementById("inalsurLink").onclick = function() {showBlog(), scrollToTop()};
+document.getElementById("toBlog").onclick = function() {showBlog(), scrollToTop()};
+document.getElementById("backButton").onclick = function() {showBlog(), scrollToTop()};
 
 function showContact() {
     document.getElementById("about").style.display = "none"
@@ -154,9 +158,9 @@ function showContact() {
     `
 }
 
-document.getElementById("contactButton").onclick = function() {showContact()};
-document.getElementById("contactMobile").onclick = function() {showContact()};
-document.getElementById("toContact").onclick = function() {showContact()};
+document.getElementById("contactButton").onclick = function() {showContact(), scrollToTop()};
+document.getElementById("contactMobile").onclick = function() {showContact(), scrollToTop()};
+document.getElementById("toContact").onclick = function() {showContact(), scrollToTop()};
 
 function tjhChangeLogos() {
     document.getElementById("tjhImage").style.cssText = `
@@ -222,7 +226,7 @@ function showTjhLong() {
         `    
 }
 
-document.getElementById("tjhProjectShort").onclick = function() {showTjhLong()}
+document.getElementById("tjhProjectShort").onclick = function() {showTjhLong(), scrollToTop()}
 
 function openMenu() {
     document.getElementById("navigationButton").style.cssText = `
