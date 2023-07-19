@@ -432,6 +432,10 @@ nav img {
     display: none;
 }
 
+#blog #inalsurProjectLong {
+    display: none;
+}
+
 @media only screen and (max-width: 1700px) {
     #blog .fa-angle-double-left {
         top: 120px;
