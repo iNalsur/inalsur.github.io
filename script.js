@@ -99,6 +99,9 @@ function showBlog() {
     document.getElementById("inalsurProjectShort").style.cssText = `
         display: block;
         `    
+    document.getElementById("inalsurProjectLong").style.cssText = `
+        display: none;
+        `    
     document.getElementById("tjhProjectShort").style.cssText = `
         display: block;
         `    
@@ -227,6 +230,23 @@ function showTjhLong() {
 }
 
 document.getElementById("tjhProjectShort").onclick = function() {showTjhLong(), scrollToTop()}
+
+function showInalsurLong() {
+    document.getElementById("inalsurProjectShort").style.cssText = `
+        display: none
+        `
+    document.getElementById("tjhProjectShort").style.cssText = `
+        display: none
+        `
+    document.getElementById("inalsurProjectLong").style.cssText = `
+        display: block;
+        `    
+    document.getElementById("backButton").style.cssText = `
+        display: block;
+        `    
+}
+
+document.getElementById("inalsurProjectShort").onclick = function() {showInalsurLong(), scrollToTop()}
 
 function openMenu() {
     document.getElementById("navigationButton").style.cssText = `
