@@ -548,6 +548,10 @@ nav img {
     color: #c71610;
 }
 
+#contact .devicon-linkedin-plain {
+    color: #0A66C2;
+}
+
 #contact .fa-envelope:hover {
     background-color: #c71610;
     color: white;
@@ -564,6 +568,21 @@ nav img {
     background-color: black;
     color: white;
     border-radius: 50%;   
+}
+
+#contact .fa-envelope:visited {
+    background-color: white;
+    color: #c71610;
+}
+
+#contact .devicon-linkedin-plain:visited {
+    background-color: white;
+    color: #0A66C2;
+}
+
+#contact .devicon-github-original:visited {
+    background-color: white;
+    color: black;
 }
 
 @media only screen and (max-width: 600px) {
