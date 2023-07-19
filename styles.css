@@ -410,6 +410,8 @@ nav img {
     /* border: 2px solid darkred; */
     /* margin: 5px; */
     text-align: right;
+    font-size: 12px;
+    color: gray;
 }
 
 #blog i {
