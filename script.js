@@ -26,7 +26,7 @@ function showAbout() {
         color: default;
         `;
     document.getElementById("navigationButton").style.cssText = `
-    display: block;
+    display: flex;
     `
     document.getElementById("navigationClose").style.cssText = `
     display: none;
@@ -61,7 +61,7 @@ function showProjects() {
         color: default;
         `;
     document.getElementById("navigationButton").style.cssText = `
-    display: block;
+    display: flex;
     `
     document.getElementById("navigationClose").style.cssText = `
     display: none;
@@ -112,7 +112,7 @@ function showBlog() {
         display: none
         `
     document.getElementById("navigationButton").style.cssText = `
-    display: block;
+    display: flex;
     `
     document.getElementById("navigationClose").style.cssText = `
     display: none;
@@ -151,7 +151,7 @@ function showContact() {
         color: white;
         `;
     document.getElementById("navigationButton").style.cssText = `
-    display: block;
+    display: flex;
     `
     document.getElementById("navigationClose").style.cssText = `
     display: none;
@@ -250,7 +250,7 @@ document.getElementById("inalsurProjectShort").onclick = function() {showInalsur
 
 function openMenu() {
     document.getElementById("navigationButton").style.cssText = `
-    display: none;
+    display: flex;
     `
     document.getElementById("navigationClose").style.cssText = `
     display: flex;
