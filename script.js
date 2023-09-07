@@ -253,7 +253,7 @@ function openMenu() {
     display: none;
     `
     document.getElementById("navigationClose").style.cssText = `
-    display: block;
+    display: flex;
     `
     document.getElementById("navList").style.cssText = `
     display: inline-block;
@@ -264,7 +264,7 @@ document.getElementById("navigationButton").onclick = function() {openMenu()}
 
 function closeMenu() {
     document.getElementById("navigationButton").style.cssText = `
-    display: block;
+    display: flex;
     `
     document.getElementById("navigationClose").style.cssText = `
     display: none;
