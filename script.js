@@ -275,3 +275,22 @@ function closeMenu() {
 }
 
 document.getElementById("navigationClose").onclick = function() {closeMenu()}
+
+function pressedContact() {
+    document.getElementById("mailIcon").style.cssText = `
+    background-color: white;
+    color: #c71610;
+    `
+    document.getElementById("linkedInIcon").style.cssText = `
+    background-color: white;
+    color: #0A66C2;
+    `
+    document.getElementById("gitHubIcon").style.cssText = `
+    background-color: white;
+    color: black;
+    `
+}
+
+document.getElementById("mailIcon").onclick = function() {pressedContact()}
+document.getElementById("LinkedInIcon").onclick = function() {pressedContact()}
+document.getElementById("gitHubIcon").onclick = function() {pressedContact()}
