@@ -172,11 +172,6 @@ nav img {
     padding-bottom: 150px;
 }
 
-#about h1 {
-    /* border: 2px solid blue; */
-    text-align: center;
-}
-
 #about p {
     line-height: 26px;
 }
@@ -236,11 +231,6 @@ nav img {
     /* border: 2px solid red; */
     margin-top: 100px;
     padding-bottom: 150px;
-}
-
-#projects h1 {
-    /* border: 2px solid purple; */
-    text-align: center;
 }
 
 #projects .container {
@@ -325,11 +315,6 @@ nav img {
     display: none;
     margin-top: 100px;
     padding-bottom: 100px;
-}
-
-#blog h1 {
-    /* border: 2px solid yellow; */
-    text-align: center;
 }
 
 #blog .fa-angle-double-left {
@@ -497,10 +482,6 @@ nav img {
     padding-bottom: 100px;
 }
 
-#contact h1 {
-    /* border: 2px solid green; */
-    text-align: center;
-}
 
 #contact .container {
     /* border: 2px solid yellow; */
@@ -590,7 +571,4 @@ nav img {
         padding-bottom: 30px;
     }
 
-    h1 {
-        padding-top: 20px;
-    }
 }
