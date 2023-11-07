@@ -1,7 +1,7 @@
 # iNalsur | Portfolio Website
 
 <h2>Introduction</h2>
-This is the site you are currently on, for me it was the first project where I used JavaScript, Node.js, Git, GitHub and Bash. During the studying, I had to make a portfolio project and use in it all the skills that I learned during the studying.
+This is the first project where I used JavaScript, Node.js, Git, GitHub and Bash. During the studying, I had to make a portfolio project and use in it all the skills that I learned during the studying.
 
 <h2>Tools</h2>
 While working, I used the MacOs system, wrote code in the Visual Studio Code program. The programming languages HTML, CSS and JavaScript were used in this project. For processing photos and pictures I used Photshop program. In this project, I used the Bash console, in it I used Git to make commits, Node.js to check the work of JavaScript codes, and also to publish the site on GitHub. And used Google Chrome Dev Tools, to test the site's performance.
