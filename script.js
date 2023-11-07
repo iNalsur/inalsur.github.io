@@ -96,6 +96,12 @@ function showBlog() {
         background-color: default;
         color: default;
         `;
+    document.getElementById("tjhProjectUpdateShort").style.cssText = `
+        display: block;
+        `    
+    document.getElementById("tjhProjectUpdateLong").style.cssText = `
+        display: none
+        `
     document.getElementById("inalsurProjectShort").style.cssText = `
         display: block;
         `    
@@ -215,6 +221,9 @@ document.getElementById("inalsurImage").onmouseover = function() {inalsurChangeL
 document.getElementById("inalsurImageReversed").onmouseout = function() {inalsurReturnLogos()}
 
 function showTjhLong() {
+    document.getElementById("tjhProjectUpdateShort").style.cssText = `
+    display: none
+    `
     document.getElementById("inalsurProjectShort").style.cssText = `
         display: none
         `
@@ -232,6 +241,9 @@ function showTjhLong() {
 document.getElementById("tjhProjectShort").onclick = function() {showTjhLong(), scrollToTop()}
 
 function showInalsurLong() {
+    document.getElementById("tjhProjectUpdateShort").style.cssText = `
+    display: none
+    `
     document.getElementById("inalsurProjectShort").style.cssText = `
         display: none
         `
@@ -247,6 +259,26 @@ function showInalsurLong() {
 }
 
 document.getElementById("inalsurProjectShort").onclick = function() {showInalsurLong(), scrollToTop()}
+
+function showThjUpdateLong() {
+    document.getElementById("tjhProjectUpdateShort").style.cssText = `
+        display: none
+        `
+    document.getElementById("inalsurProjectShort").style.cssText = `
+        display: none
+        `
+    document.getElementById("tjhProjectShort").style.cssText = `
+        display: none
+        `
+    document.getElementById("tjhProjectUpdateLong").style.cssText = `
+        display: block;
+        `    
+    document.getElementById("backButton").style.cssText = `
+        display: block;
+        `    
+}
+
+document.getElementById("tjhProjectUpdateShort").onclick = function() {showThjUpdateLong(), scrollToTop()}
 
 function openMenu() {
     document.getElementById("navigationButton").style.cssText = `
