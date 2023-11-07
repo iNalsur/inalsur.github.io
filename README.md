@@ -16,7 +16,7 @@ The site is made simply, it consists of one page, the page has a sections of nav
 
 A lot of different things have also been added to the head, for example, when sharing a site on a smartphone, the link will have important fact-finding information like a photo, a mini-text about the company. Also, the site has a theme color and an icon working on the iOS platform, etc.
 
-At the end, the site was published on GitHub, you can see the website on the <a href="https://inalsur.github.io" target="_blank">link</a>.
+At the end, the site was published on GitHub, you can see the website on the <a href="https://inalsur.github.io">link</a>.
 
 <h2>Outcome</h2>
 
