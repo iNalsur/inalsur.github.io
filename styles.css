@@ -390,6 +390,32 @@ nav img {
     padding-right: 5%;
 }
 
+#blog .update {
+    background-color: #0A66C2;
+    color: white;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 3px;
+}
+
+#blog .version {
+    color: gray;
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+#blog .scriptButton {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+#blog .scriptButton:hover {
+    opacity: 70%;
+}
+
 #blog .date {
     /* border: 2px solid darkred; */
     /* margin: 5px; */
@@ -417,6 +443,10 @@ nav img {
 }
 
 #blog #inalsurProjectLong {
+    display: none;
+}
+
+#blog #tjhProjectUpdateLong {
     display: none;
 }
 
